@@ -24,7 +24,7 @@
 		A52DAF7F1E213EB5008C6B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52DAF821E213EB5008C6B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52DAF841E213EB5008C6B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A52DAF8A1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCollectionViewWaterFlowLayout.swift; sourceTree = "<group>"; };
+		A52DAF8A1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FSCollectionViewWaterFlowLayout.swift; path = ../Sources/FSCollectionViewWaterFlowLayout.swift; sourceTree = "<group>"; };
 		A52DAF8B1E213F92008C6B3F /* FSWaterFlowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSWaterFlowCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
