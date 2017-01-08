@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FSCollectionViewWaterFlowLayout"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "A water fall layout, is easy to use at UICollectionView. swift 3.0"
 
   # This description is used to generate tags and improve search results.
