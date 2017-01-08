@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		A52DAF791E213EB5008C6B3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DAF781E213EB5008C6B3F /* AppDelegate.swift */; };
-		A52DAF7B1E213EB5008C6B3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DAF7A1E213EB5008C6B3F /* ViewController.swift */; };
+		A52DAF7B1E213EB5008C6B3F /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DAF7A1E213EB5008C6B3F /* SimpleViewController.swift */; };
 		A52DAF7E1E213EB5008C6B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52DAF7C1E213EB5008C6B3F /* Main.storyboard */; };
 		A52DAF801E213EB5008C6B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52DAF7F1E213EB5008C6B3F /* Assets.xcassets */; };
 		A52DAF831E213EB5008C6B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52DAF811E213EB5008C6B3F /* LaunchScreen.storyboard */; };
 		A52DAF8C1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DAF8A1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift */; };
 		A52DAF8D1E213F92008C6B3F /* FSWaterFlowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52DAF8B1E213F92008C6B3F /* FSWaterFlowCell.swift */; };
+		A5AE6F891E2286F9009925AD /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AE6F881E2286F9009925AD /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A52DAF751E213EB5008C6B3F /* FSCollectionViewWaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCollectionViewWaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52DAF781E213EB5008C6B3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A52DAF7A1E213EB5008C6B3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A52DAF7A1E213EB5008C6B3F /* SimpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
 		A52DAF7D1E213EB5008C6B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A52DAF7F1E213EB5008C6B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52DAF821E213EB5008C6B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52DAF841E213EB5008C6B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52DAF8A1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FSCollectionViewWaterFlowLayout.swift; path = ../Sources/FSCollectionViewWaterFlowLayout.swift; sourceTree = "<group>"; };
 		A52DAF8B1E213F92008C6B3F /* FSWaterFlowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSWaterFlowCell.swift; sourceTree = "<group>"; };
+		A5AE6F881E2286F9009925AD /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A52DAF781E213EB5008C6B3F /* AppDelegate.swift */,
-				A52DAF7A1E213EB5008C6B3F /* ViewController.swift */,
+				A52DAF7A1E213EB5008C6B3F /* SimpleViewController.swift */,
+				A5AE6F881E2286F9009925AD /* ImageViewController.swift */,
 				A52DAF8A1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift */,
 				A52DAF8B1E213F92008C6B3F /* FSWaterFlowCell.swift */,
 				A52DAF7C1E213EB5008C6B3F /* Main.storyboard */,
@@ -143,7 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52DAF8D1E213F92008C6B3F /* FSWaterFlowCell.swift in Sources */,
-				A52DAF7B1E213EB5008C6B3F /* ViewController.swift in Sources */,
+				A52DAF7B1E213EB5008C6B3F /* SimpleViewController.swift in Sources */,
+				A5AE6F891E2286F9009925AD /* ImageViewController.swift in Sources */,
 				A52DAF791E213EB5008C6B3F /* AppDelegate.swift in Sources */,
 				A52DAF8C1E213F92008C6B3F /* FSCollectionViewWaterFlowLayout.swift in Sources */,
 			);

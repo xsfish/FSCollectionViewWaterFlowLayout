@@ -11,7 +11,7 @@ import UIKit
 public protocol FSCollectionViewDelegateWaterFlowLayout: UICollectionViewDelegate {
     
     /// return height for item at indexPath
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, heightForItemAt indexPath: IndexPath) -> CGFloat
+    func collectionView(_ collectionView: UICollectionView, itemWidth: CGFloat,  heightForItemAt indexPath: IndexPath) -> CGFloat
 }
 
 public class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
@@ -59,7 +59,7 @@ public class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
         let width = (collectionViewW - edgeInset.left - edgeInset.right - (CGFloat(columnCount) - 1) * columnMargin) / CGFloat(columnCount)
         
         let layoutDelegate = collectionView?.delegate as? FSCollectionViewDelegateWaterFlowLayout
-        let height: CGFloat = layoutDelegate?.collectionView(collectionView!, layout: self, heightForItemAt: indexPath) ?? 44 //CGFloat(arc4random()%100)+50
+        let height: CGFloat = layoutDelegate?.collectionView(collectionView!, itemWidth: width, heightForItemAt: indexPath) ?? 44 //CGFloat(arc4random()%100)+50
         
         //找到数组内目前高度最小的那一列
         var destColumn = 0
