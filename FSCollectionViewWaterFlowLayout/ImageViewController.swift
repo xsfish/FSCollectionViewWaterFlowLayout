@@ -23,19 +23,19 @@ class ImageViewController: UIViewController, FSCollectionViewDelegateWaterFlowLa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         collectionView.dataSource = self
         collectionView.delegate = self   //设置 FSCollectionViewDelegateWaterFlowLayout 的代理对象
         collectionView.register(UINib(nibName: "FSImageCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
         view.addSubview(collectionView)
         
+        //autolayout
         collectionView.translatesAutoresizingMaskIntoConstraints = false
-        collectionView.frame = view.bounds
-        /*
-         var constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|[view]|", options: [], metrics: nil, views: ["view":collectionView])
-         constraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|", options: [], metrics: nil, views: ["view":collectionView]))
-         collectionView.addConstraints(constraints)
- */
+        var constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|[view]|", options: [], metrics: nil, views: ["view":collectionView])
+        constraints.append(contentsOf: NSLayoutConstraint.constraints(withVisualFormat: "H:|[view]|", options: [], metrics: nil, views: ["view":collectionView]))
+        view.addConstraints(constraints)
+ 
+ 
         
     }
     
@@ -52,9 +52,6 @@ class ImageViewController: UIViewController, FSCollectionViewDelegateWaterFlowLa
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! FSImageCell
         cell.imageView.image = UIImage(named: imageNames[indexPath.item])
         cell.textLabel.text = imageNames[indexPath.item]
-        cell.backgroundColor = UIColor.white
-        cell.textLabel.textColor = UIColor.white
-        cell.textLabel.backgroundColor = UIColor.gray
         return cell
     }
     

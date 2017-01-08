@@ -74,7 +74,7 @@
             </objects>
             <point key="canvasLocation" x="559" y="-379"/>
         </scene>
-        <!--Image View Controller-->
+        <!--Image-->
         <scene sceneID="Fwj-eS-c2A">
             <objects>
                 <viewController id="nOF-b5-Vp9" customClass="ImageViewController" customModule="FSCollectionViewWaterFlowLayout" customModuleProvider="target" sceneMemberID="viewController">
@@ -87,13 +87,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sHj-wr-bEq"/>
+                    <navigationItem key="navigationItem" title="Image" id="sHj-wr-bEq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upl-8q-2vo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1350" y="-13"/>
         </scene>
-        <!--Simple View Controller-->
+        <!--Simple-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SimpleViewController" customModule="FSCollectionViewWaterFlowLayout" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,7 +106,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ccx-Xc-NFG"/>
+                    <navigationItem key="navigationItem" title="Simple" id="ccx-Xc-NFG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

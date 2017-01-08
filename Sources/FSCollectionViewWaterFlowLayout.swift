@@ -15,11 +15,11 @@ public protocol FSCollectionViewDelegateWaterFlowLayout: UICollectionViewDelegat
 }
 
 public class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
-
-    public var columnCount = 2
-    public var columnMargin:CGFloat = 10
-    public var rowMargin:CGFloat = 10
-    public var edgeInset = UIEdgeInsets.zero
+    
+    public var columnCount = 2  //设置列数，默认为2
+    public var columnMargin:CGFloat = 10    //设置列间距，默认为10
+    public var rowMargin:CGFloat = 10   //设置行间距，默认为10
+    public var edgeInset = UIEdgeInsets.zero    //设置与父视图的边距， 默认为.zero
     
     private var contentHeight:CGFloat = 0.0
     private var columnHeights:[CGFloat] = []
