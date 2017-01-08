@@ -1,13 +1,18 @@
 # FSCollectionViewWaterFlowLayout
-collectionview water fall flow layout 简单可自定义的瀑布流
-###Note
-swift 3.0, ios 8.0+
-###Install
-cocoapods
-pod 'FSCollectionViewWaterFlowLayout'
-手动安装
-将 FSCollectionViewWaterFlowLayout.swift 文件拖到你的工程中
-###Example
+collectionview water fall flow layout 简单可自定义的瀑布流。
+
+### Requirements
+- iOS 8.0+ 
+- Swift 3 
+
+### Install
+- cocoapods
+  - pod 'FSCollectionViewWaterFlowLayout'
+- 手动安装
+  - 将 FSCollectionViewWaterFlowLayout.swift 文件拖到你的工程中。 
+  
+### Example
+下面是一个简单的使用例子
 ```swift
 import UIKit
 import FSCollectionViewWaterFlowLayout
@@ -56,5 +61,7 @@ class ViewController: UIViewController, FSCollectionViewDelegateWaterFlowLayout,
     }
 }
 ```
-###License
+效果图如下
+
+### License
 FSCollectionViewWaterFlowLayout is available under the MIT license. See the LICENSE file for more info.
