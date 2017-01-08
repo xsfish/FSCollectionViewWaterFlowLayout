@@ -8,25 +8,25 @@
 
 import UIKit
 
-protocol FSCollectionViewDelegateWaterFlowLayout: UICollectionViewDelegate {
+public protocol FSCollectionViewDelegateWaterFlowLayout: UICollectionViewDelegate {
     
     /// return height for item at indexPath
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, heightForItemAt indexPath: IndexPath) -> CGFloat
 }
 
-class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
+public class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
 
-    var columnCount = 2
-    var columnMargin:CGFloat = 10
-    var rowMargin:CGFloat = 10
-    var edgeInset = UIEdgeInsets.zero
+    public var columnCount = 2
+    public var columnMargin:CGFloat = 10
+    public var rowMargin:CGFloat = 10
+    public var edgeInset = UIEdgeInsets.zero
     
     private var contentHeight:CGFloat = 0.0
     private var columnHeights:[CGFloat] = []
 
     private var attrsArray:[UICollectionViewLayoutAttributes] = []
     
-    internal override func prepare() {
+    public override func prepare() {
         super.prepare()
         
         contentHeight = 0
@@ -52,7 +52,7 @@ class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
         }
     }
     
-    internal override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+    public override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
         let attrs = super.layoutAttributesForItem(at: indexPath)
         
         let collectionViewW = collectionView?.frame.width ?? 0
@@ -92,7 +92,7 @@ class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
         return attrs
     }
     
-    internal override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
+    public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         var rectArray:[UICollectionViewLayoutAttributes] = []
         for cacheAttr in attrsArray {
             if cacheAttr.frame.intersects(rect) {
@@ -102,7 +102,7 @@ class FSCollectionViewWaterFlowLayout: UICollectionViewFlowLayout {
         return rectArray
     }
     
-    internal override var collectionViewContentSize: CGSize {
+    public override var collectionViewContentSize: CGSize {
         return CGSize(width: collectionView?.bounds.width ?? 0, height: contentHeight + edgeInset.bottom)
     }
     
