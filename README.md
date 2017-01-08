@@ -59,13 +59,16 @@ class ViewController: UIViewController, FSCollectionViewDelegateWaterFlowLayout,
     }
     
     ///MARK: - FSCollectionViewDelegateWaterFlowLayout
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, heightForItemAt indexPath: IndexPath) -> CGFloat {
+    func collectionView(_ collectionView: UICollectionView, itemWidth: CGFloat, heightForItemAt indexPath: IndexPath) -> CGFloat {
         return CGFloat(arc4random()%60) + 20
     }
 }
 ```
 - 效果图如下
   - ![image](https://github.com/Fredcom/FSCollectionViewWaterFlowLayout/blob/master/ScreenShot/ScreenShot.png)
+  
+#### 带图片的效果图如下
+  ![image](https://github.com/Fredcom/FSCollectionViewWaterFlowLayout/blob/master/ScreenShot/ScreenShot2.jpg)
 
 ### License
 
