@@ -108,7 +108,6 @@
 				TargetAttributes = {
 					A52DAF741E213EB5008C6B3F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2Q8RQRJ75L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -277,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2Q8RQRJ75L;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FSCollectionViewWaterFlowLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -291,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2Q8RQRJ75L;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FSCollectionViewWaterFlowLayout/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

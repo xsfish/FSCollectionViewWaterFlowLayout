@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FSCollectionViewWaterFlowLayout"
-  s.version      = "0.0.3"
-  s.summary      = "A water fall layout, is easy to use at UICollectionView. swift 3.0"
+  s.version      = "1.0.0"
+  s.summary      = "A water fall layout(瀑布流), is easy to use. Swift 3.0."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Fredcom" => "mmfeishao@163.com" }
+  s.author             = { "Fredcom" => "mmfeishao@gmail.com" }
   # Or just: s.author    = "Fredcom"
   # s.authors            = { "Fredcom" => "" }
   # s.social_media_url   = "http://twitter.com/Fredcom"
